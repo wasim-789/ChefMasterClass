@@ -217,7 +217,7 @@ section {
 }
 
 .curriculum-section .left_dish {
-  margin-left: -75px;
+  margin-left: -21%;
 }
 
 /* Timeline Styles */
@@ -466,7 +466,8 @@ section {
   background-color: var(--white);
   background-image: url(./Images/Plan\ Background.png);
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: 100%;
+  background-position: center;
 }
 
 .pricing-card {
