@@ -561,19 +561,21 @@ section {
 }
 
 @media (max-width: 767.98px) {
-  .hero-section .row,
-  .chef-section .row {
-    flex-direction: column;
+  .hero-section .row {
+    text-align: center;
   }
 
   .hero-section h1 {
-    font-size: 2rem;
+    font-size: 3rem;
   }
 
   .hero-image,
   .chef-image {
-    max-height: 300px;
-    margin-bottom: 30px;
+    margin-top: 50px;
+  }
+
+  .chef-name {
+    font-size: 48px;
   }
 
   .feature-card {
@@ -594,6 +596,10 @@ section {
 }
 
 @media (max-width: 575.98px) {
+  .hero-section h1 {
+    font-size: 2rem;
+  }
+
   .section-title {
     font-size: 2rem;
   }

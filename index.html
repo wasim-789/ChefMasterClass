@@ -60,16 +60,16 @@
     <!-- Hero Section -->
     <section class="hero-section" id="home">
       <div class="container">
-        <div class="row align-items-center">
-          <div class="col-md-6 order-md-1 order-2" data-aos="fade-right" data-aos-duration="800">
+        <div class="row align-items-center d-flex flex-md-wrap">
+          <div class="col-md-6 col-sm-12" data-aos="fade-right" data-aos-duration="800">
             <h1 class="fw-bold mb-4 fs-lg-5">Learn to Cook<br />Like a Pro at Home</h1>
-            <p class="mb-4 text-muted fs-5">
+            <p class="mb-4 text-muted fs-lg-5 fs-md-5 fs-sm-6">
               Master 50+ delicious recipes in just 30 days — perfect for
               beginners and home cooks.
             </p>
             <a href="#" class="btn btn-green btn-lg fw-medium">Start Cooking Now</a>
           </div>
-          <div class="col-md-6 order-md-2 order-1 text-center mb-4 mb-md-0" data-aos="fade-left" data-aos-duration="800">
+          <div class="col-md-6 col-sm-12 text-center mb-4 mb-md-0" data-aos="fade-left" data-aos-duration="800">
             <img src="./Images/Hero Image.png" alt="Food Image" class="img-fluid hero-image" />
           </div>
         </div>
@@ -80,13 +80,13 @@
     <section class="chef-section" id="about">
       <div class="container">
         <div class="row align-items-center">
-          <div class="col-lg-6 text-center mb-5 mb-lg-0" data-aos="zoom-in">
+          <div class="col-lg-6 col-md-6 col-sm-12 text-center mb-5 mb-lg-0" data-aos="zoom-in">
             <img src="./Images/Chef Image.png" alt="Chef Image" class="img-fluid chef-image" />
           </div>
-          <div class="col-lg-6" data-aos="fade-left" data-aos-delay="200">
-            <h5 class="section-title mb-1">Meet Your Chef</h5>
+          <div class="col-lg-6 col-md-6 col-sm-12" data-aos="fade-left" data-aos-delay="200">
+            <h2 class="section-title mb-1">Meet Your Chef</h2>
             <span class="fw-bold mb-4 chef-name">Chef Ali Mirza Sheikh</span>
-            <p class="mb-4 text-muted fs-5">
+            <p class="mb-4 text-muted fs-lg-5 fs-md-5 fs-sm-6">
               Chef Ali Mirza Sheikh is a celebrated culinary artist with over 20
               years of experience in Michelin-starred restaurants globally. His
               innovative approach to traditional cuisine has earned him
@@ -104,8 +104,8 @@
         <div class="row align-items-center">
           <!-- Left Column: Course Description -->
           <div class="col-lg-5 mb-5 mb-lg-0 text-white" data-aos="fade-right">
-            <h2 class="fw-bold mb-4 text-white">What You Will Learn</h2>
-            <p class="mb-4 text-white-75 fs-5">
+            <h2 class="section-title mb-4 text-white">What You Will Learn</h2>
+            <p class="mb-4 text-white-75 fs-lg-5 fs-md-5 fs-sm-6">
               Our structured program takes you from fundamental skills to
               advanced techniques, guided by Chef Ali's 20+ years of
               Michelin-starred experience.
@@ -481,12 +481,12 @@
       <div class="container">
         <div class="d-flex justify-content-between align-items-center flex-wrap">
           <!-- Footer Logo -->
-          <div class="footer-logo fw-bold fs-4" data-aos="fade-right">
+          <div class="footer-logo fw-bold fs-4">
             <a href=""><img src="./Images/Footer Logo.svg" alt="" /></a>
           </div>
 
           <!-- Footer Navigation -->
-          <ul class="nav" data-aos="fade-left">
+          <ul class="nav">
             <li class="nav-item"><a href="#" class="nav-link text-white">Home</a></li>
             <li class="nav-item"><a href="#" class="nav-link text-white">About</a></li>
             <li class="nav-item"><a href="#" class="nav-link text-white">Testimonials</a></li>
@@ -505,7 +505,7 @@
           </div>
 
           <!-- Email Info -->
-          <div class="d-flex align-items-center gap-2" data-aos="fade-up" data-aos-delay="200">
+          <div class="d-flex align-items-center gap-2">
             <i class="bi bi-envelope fs-5 text-black"></i>
             <span class="text-black">chefmasterclass.com</span>
           </div>
@@ -534,7 +534,7 @@
       // Sticky Navbar on Scroll
       window.addEventListener("scroll", function () {
         const navbar = document.getElementById("mainNavbar");
-        if (window.scrollY > 100) {
+        if (window.scrollY > 50) {
           navbar.classList.add("sticky-navbar");
           document.body.classList.add("sticky-navbar-active");
         } else {
