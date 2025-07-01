@@ -556,7 +556,7 @@ section {
   }
 
   .item6 {
-    grid-column: span 2;
+    grid-column: span 1;
     grid-row: span 1;
   }
 }
@@ -594,6 +594,11 @@ section {
   .masonry-grid {
     grid-template-columns: 1fr;
   }
+
+   .left_dish {
+    width: 70% !important;
+  }
+  
 }
 
 @media (max-width: 575.98px) {
@@ -612,5 +617,9 @@ section {
 
   .arrows {
     margin-top: 15px;
+  }
+
+  .left_dish {
+    width: 70% !important;
   }
 }
